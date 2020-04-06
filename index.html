@@ -9,13 +9,26 @@
   </head> 
 <body style="background-color: black;">
   <div class="grid-container">
-  <model-viewer class="a" src="third_party/varbergsgravyr/Parametric_Panel_Clean_03.glb" 
+  <model-viewer class="a" src="third_party/varbergsgravyr/Parametric_Panel_04.gltf" 
   alt="An 3d plate-model" 
   ar 
   auto-rotate 
   camera-controls 
   ios-src="third_party/varbergsgravyr/Parametric_Panel_USDZ_Test2.usdz"
-  ></model-viewer>
+  >
+  <button slot="ar-button" 
+  style="
+   background-color: white;
+   border-radius: 4px; 
+   border: none; 
+   position: absolute; 
+   top: 22px; 
+   right: 22px; 
+   ">
+    AR
+</button>
+
+</model-viewer>
 </div>
 </body>
 <!-- Loads <model-viewer> for modern browsers: -->
