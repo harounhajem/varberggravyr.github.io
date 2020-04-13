@@ -3,7 +3,3 @@ body {
     background-image: url('assets/Background.gif');
     background-repeat: repeat;
 }
-
-default-poster {
-    background-size: unset !important;
-}
