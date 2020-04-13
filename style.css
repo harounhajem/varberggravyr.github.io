@@ -1,0 +1,9 @@
+body {
+    background-color: #393b3f !important;
+    background-image: url('assets/Background.gif');
+    background-repeat: repeat;
+}
+
+default-poster {
+    background-size: unset !important;
+}
